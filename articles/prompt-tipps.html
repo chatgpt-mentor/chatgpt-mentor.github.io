@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipps & Tricks für bessere Prompts</title>
+    <meta name="description" content="Meistern Sie die Kunst des Prompt Engineering: Erfahren Sie, wie Sie effektivere Prompts für ChatGPT erstellen, um präzisere und nützlichere Antworten zu erhalten.">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>ChatGPT Ratgeber</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Startseite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active dropdown-toggle">Blog / Artikel</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="chatgpt-grundlagen.html">ChatGPT Grundlagen</a></li>
+                            <li><a href="lernen-mit-chatgpt.html">Lernen mit ChatGPT</a></li>
+                            <li><a href="kreative-anwendungen.html">Kreative Anwendungen</a></li>
+                            <li><a href="prompt-tipps.html">Prompt Tipps & Tricks</a></li>
+                            <li><a href="ki-tools.html">KI-Tools Kombinationen</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../ueber-uns.html" class="nav-link">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../kontakt.html" class="nav-link">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../impressum.html" class="nav-link">Impressum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../datenschutz.html" class="nav-link">Datenschutz</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="article-hero">
+            <div class="article-hero-content">
+                <h1>Tipps & Tricks für bessere Prompts</h1>
+                <p class="article-subtitle">Die Kunst des Prompt Engineering meistern</p>
+            </div>
+        </section>
+
+        <section class="article-content-section">
+            <div class="container">
+                <p>
+                    ChatGPT ist ein mächtiges Werkzeug, aber seine Leistungsfähigkeit hängt maßgeblich von der Qualität der Eingaben ab, die Sie ihm geben – den sogenannten „Prompts“. Ein gut formulierter Prompt kann den Unterschied zwischen einer generischen und einer präzisen, nützlichen Antwort ausmachen. In diesem Artikel tauchen wir tief in die Kunst des Prompt Engineering ein und geben Ihnen bewährte Tipps und Tricks an die Hand, um das Beste aus ChatGPT herauszuholen.
+                </p>
+
+                <h2>Was ist ein Prompt?</h2>
+                <p>
+                    Ein Prompt ist im Grunde Ihre Anweisung oder Frage an ein KI-Modell wie ChatGPT. Es ist der Text, den Sie in das Eingabefeld eingeben, um eine bestimmte Ausgabe zu erhalten. Die Qualität Ihrer Prompts bestimmt direkt die Qualität der generierten Antworten. Ein klarer, präziser und gut strukturierter Prompt führt zu besseren Ergebnissen.
+                </p>
+
+                <h2>Grundlagen des Prompt Engineering</h2>
+                <h3>1. Seien Sie klar und präzise</h3>
+                <p>
+                    Vermeiden Sie vage Formulierungen. Je genauer Sie Ihre Erwartungen formulieren, desto besser kann ChatGPT diese erfüllen. Denken Sie daran, dass die KI keine Gedanken lesen kann; sie verarbeitet nur den Text, den Sie ihr geben.
+                </p>
+                <p>
+                    <strong>Schlecht:</strong> „Schreib was über Hunde.“<br>
+                    <strong>Gut:</strong> „Schreibe einen 200 Wörter langen Blogbeitrag über die Vorteile der Hundehaltung für die psychische Gesundheit, gerichtet an ein allgemeines Publikum.“
+                </p>
+
+                <h3>2. Geben Sie Kontext</h3>
+                <p>
+                    Der Kontext ist entscheidend. Erklären Sie, wer Sie sind, für wen der Text bestimmt ist, welchen Zweck er hat und welche Hintergrundinformationen relevant sind.
+                </p>
+                <p>
+                    <strong>Schlecht:</strong> „Erkläre Quantenphysik.“<br>
+                    <strong>Gut:</strong> „Erkläre die Grundlagen der Quantenphysik so, als würdest du es einem 16-jährigen Schüler erklären, der keine Vorkenntnisse in Physik hat. Verwende einfache Analogien.“
+                </p>
+
+                <h3>3. Definieren Sie die Rolle der KI</h3>
+                <p>
+                    Weisen Sie ChatGPT eine spezifische Rolle zu. Dies hilft dem Modell, den Ton, den Stil und die Perspektive der Antwort anzupassen.
+                </p>
+                <p>
+                    <strong>Beispiel:</strong> „Du bist ein erfahrener Marketingexperte. Erstelle fünf Slogan-Vorschläge für ein neues umweltfreundliches Reinigungsmittel.“
+                </p>
+
+                <h3>4. Legen Sie das Format fest</h3>
+                <p>
+                    Sagen Sie ChatGPT, in welchem Format Sie die Antwort wünschen. Das kann eine Liste, ein Absatz, ein Gedicht, ein Code-Snippet, eine Tabelle oder ein bestimmtes Dateiformat sein.
+                </p>
+                <p>
+                    <strong>Beispiel:</strong> „Erstelle eine Tabelle mit den Vor- und Nachteilen von Homeoffice, mit zwei Spalten: 'Vorteile' und 'Nachteile'.“
+                </p>
+
+                <h3>5. Geben Sie Beispiele (Few-Shot Prompting)</h3>
+                <p>
+                    Wenn Sie eine sehr spezifische Art von Antwort wünschen, zeigen Sie ChatGPT, was Sie erwarten, indem Sie ein oder zwei Beispiele geben. Dies wird als „Few-Shot Prompting“ bezeichnet und ist äußerst effektiv.
+                </p>
+                <p>
+                    <strong>Beispiel:</strong> „Ich möchte Produktbeschreibungen im folgenden Stil: [Beispiel 1]. Erstelle eine ähnliche Beschreibung für [Produkt X].“
+                </p>
+
+                <h2>Fortgeschrittene Prompt-Techniken</h2>
+                <h3>1. Ketten von Gedanken (Chain-of-Thought Prompting)</h3>
+                <p>
+                    Bei komplexen Aufgaben kann es hilfreich sein, ChatGPT aufzufordern, seine Denkprozesse zu zeigen. Dies verbessert oft die Qualität der endgültigen Antwort und hilft Ihnen, Fehler zu identifizieren.
+                </p>
+                <p>
+                    <strong>Beispiel:</strong> „Denke Schritt für Schritt nach, bevor du antwortest. Ich möchte eine Marketingstrategie für ein neues veganes Restaurant. Beginne mit der Zielgruppenanalyse, dann der Wettbewerbsanalyse, gefolgt von den Marketingkanälen und schließlich einem Aktionsplan.“
+                </p>
+
+                <h3>2. Iteratives Prompting</h3>
+                <p>
+                    Betrachten Sie die Interaktion mit ChatGPT als einen Dialog. Wenn die erste Antwort nicht perfekt ist, verfeinern Sie Ihre Prompts basierend auf der vorherigen Ausgabe. Bitten Sie um Änderungen, Erweiterungen oder Präzisierungen.
+                </p>
+                <p>
+                    <strong>Beispiel:</strong> „Das ist gut, aber kannst du den Abschnitt über Social Media noch detaillierter ausführen und spezifische Plattformen nennen?“
+                </p>
+
+                <h3>3. Constraint-basiertes Prompting</h3>
+                <p>
+                    Legen Sie klare Einschränkungen fest, was die Antwort enthalten oder nicht enthalten soll. Dies kann die Länge, den Stil, die verwendeten Begriffe oder sogar die zu vermeidenden Themen betreffen.
+                </p>
+                <p>
+                    <strong>Beispiel:</strong> „Schreibe einen Artikel über künstliche Intelligenz, aber verwende keine Fachbegriffe wie 'neuronale Netze' oder 'Deep Learning'. Halte den Text unter 500 Wörtern.“
+                </p>
+
+                <h3>4. Negative Prompting</h3>
+                <p>
+                    Manchmal ist es einfacher zu sagen, was man <em>nicht</em> will. Negative Prompts können dazu beitragen, unerwünschte Ergebnisse zu filtern.
+                </p>
+                <p>
+                    <strong>Beispiel:</strong> „Erstelle eine Liste von gesunden Frühstücksoptionen, aber schließe alle Milchprodukte aus.“
+                </p>
+
+                <h2>Häufige Fehler vermeiden</h2>
+                <ul>
+                    <li><strong>Zu vage sein:</strong> Wie bereits erwähnt, führt mangelnde Präzision zu generischen Antworten.</li>
+                    <li><strong>Zu viele Fragen in einem Prompt:</strong> Stellen Sie eine Frage nach der anderen, um Verwirrung zu vermeiden.</li>
+                    <li><strong>Annahmen treffen:</strong> Gehen Sie nicht davon aus, dass ChatGPT weiß, was Sie meinen. Erklären Sie alles explizit.</li>
+                    <li><strong>Kein Feedback geben:</strong> Wenn eine Antwort nicht passt, sagen Sie es ChatGPT und bitten Sie um eine Überarbeitung.</li>
+                </ul>
+
+                <h2>Fazit</h2>
+                <p>
+                    Prompt Engineering ist eine Fähigkeit, die mit Übung wächst. Indem Sie die hier vorgestellten Tipps und Tricks anwenden, können Sie Ihre Interaktionen mit ChatGPT erheblich verbessern und das volle Potenzial dieses erstaunlichen KI-Tools ausschöpfen. Experimentieren Sie, lernen Sie aus Ihren Erfahrungen und werden Sie zum Meister der Prompts!
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ChatGPT Ratgeber</h3>
+                    <p>Ihr Guide für künstliche Intelligenz</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="../index.html">Startseite</a></li>
+                        <li><a href="../ueber-uns.html">Über uns</a></li>
+                        <li><a href="../kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Rechtliches</h4>
+                    <ul>
+                        <li><a href="../impressum.html">Impressum</a></li>
+                        <li><a href="../datenschutz.html">Datenschutz</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ChatGPT Ratgeber. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
+

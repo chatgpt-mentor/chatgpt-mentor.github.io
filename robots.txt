@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://chatgpt-ratgeber.de/sitemap.xml
+
+# Disallow specific directories if needed
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow all search engines to crawl the site
+# This is a public information website about ChatGPT
+
