@@ -1,0 +1,48 @@
+/* Language Switcher Styles */
+.language-switcher-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+.language-switcher {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.language-switcher li {
+    display: inline;
+}
+
+.language-switcher .lang-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 0.9em;
+}
+
+.language-switcher .lang-link:hover {
+    background-color: #eee;
+}
+
+.language-switcher .lang-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Optional: Adjust main navbar if necessary to prevent overlap */
+.navbar {
+    padding-top: 50px; /* Add space for the switcher above the navbar */
+}
+
